@@ -19,5 +19,7 @@ class School
   def grade(num)
     roster[num]
   end 
-  
+  def sort 
+    roster.map do |level, students|
+      
 end 
