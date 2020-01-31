@@ -21,5 +21,5 @@ class School
   end 
   def sort 
     roster.map do |level, students|
-      
+      roster[level] = students.sort 
 end 
